@@ -1,0 +1,12 @@
+
+#img1{
+    width: auto;
+}
+a .container:hover{
+ border:2px solid white;
+ border-radius: 4px;
+}
+.nav-link
+{
+    color: white;
+}
