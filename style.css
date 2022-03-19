@@ -1,12 +1,44 @@
-
+.container{
+    display:flex;
+    justify-content: space-evenly !important;
+}
 #img1{
-    width: auto;
+    width: 50px;
 }
 a .container:hover{
  border:2px solid white;
  border-radius: 4px;
 }
+
 .nav-link
 {
     color: white;
 }
+.img{
+    height:auto;
+}
+.All{
+    display:flex;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: larger;
+    margin-top: 10px;
+    font-style: normal;
+    margin:50px;
+}
+.row{
+    display:flex;
+    margin:10px;
+    justify-content:space-between ;
+}
+.Groceries{
+    display:flex;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: larger;
+    margin-top: 10px;
+    font-style: normal;
+    margin:50px
+}
+
+
