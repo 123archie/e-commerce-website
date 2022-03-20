@@ -40,5 +40,14 @@ a .container:hover{
     font-style: normal;
     margin:50px
 }
+.btn{
+    background-color: orange;
+ border: orange;
+    color:white;
+}
+.btn:hover{
+    background-color: rgb(247, 190, 84);
+}
+
 
 
