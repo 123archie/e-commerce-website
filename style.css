@@ -1,6 +1,6 @@
 .container{
     display:flex;
-    justify-content: space-evenly !important;
+    justify-content:space-evenly !important;
 }
 #img1{
     width: 50px;
@@ -44,6 +44,10 @@ a .container:hover{
     background-color: orange;
  border: orange;
     color:white;
+}
+button.btn.btn-outline-success
+{
+    background-color: green;
 }
 .btn:hover{
     background-color: rgb(247, 190, 84);
