@@ -1,6 +1,6 @@
 .container{
     display:flex;
-    justify-content:space-evenly !important;
+    justify-content:space-between !important;
 }
 #img1{
     width: 50px;
@@ -30,6 +30,9 @@ a .container:hover{
     display:flex;
     margin:10px;
     justify-content:space-between ;
+}
+.card{
+    margin: 0 auto;
 }
 .Groceries{
     display:flex;
