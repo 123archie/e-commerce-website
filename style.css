@@ -33,6 +33,7 @@ a .container:hover{
 }
 .card{
     margin: 0 auto;
+    
 }
 .Groceries{
     display:flex;
