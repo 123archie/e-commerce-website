@@ -65,6 +65,7 @@ button.btn.btn-outline-success
    height: 195px;
    object-fit:center center;
 }
-
-
+.card:hover{
+    transform:scale(1.07);
+}
 
