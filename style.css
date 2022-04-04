@@ -1,6 +1,11 @@
-.container{
+
+.navbar{
     display:flex;
-    justify-content:space-between !important;
+    justify-content:space-around ;
+    }
+.nav{
+    display:flex;
+    justify-content: space-around;
 }
 #img1{
     width: 50px;
@@ -9,11 +14,24 @@ a .container:hover{
  border:2px solid white;
  border-radius: 4px;
 }
-
-
 .nav-link
 {
     color: white;
+    
+}
+a .image1:hover{
+    border: 4px orange;
+   }
+   .image1{
+       cursor:pointer;
+   }
+.nav-tabs:active{
+    background-color: #fff;
+    
+} 
+.nav-tabs :hover{
+color:blue;
+background-color: white;
 }
 .img{
     height: auto;
@@ -32,11 +50,12 @@ a .container:hover{
     display:flex;
     margin:10px;
     justify-content:space-between ;
-    }
+    perspective: 1000px; }
 .card{
     margin: 0 auto;
-    
-    
+    position: relative;
+    transition: transform 0.8s;
+    transition-property:preseve-3d;
 }
 .Groceries{
     display:flex;
@@ -65,7 +84,11 @@ button.btn.btn-outline-success
    height: 195px;
    object-fit:center center;
 }
+
 .card:hover{
     transform:scale(1.07);
 }
 
+a{
+    text-decoration: none;
+}

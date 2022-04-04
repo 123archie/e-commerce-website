@@ -8,15 +8,17 @@
     
     
     <link rel="stylesheet" href="style.css">
+    
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-          <a class="navbar-brand" href="http://127.0.0.1:5500/index.html?#">
+          <a class="navbar-brand" href="https://123archie.github.io/e-commerce-website/">
             <img src="online-shop-logo-design-ecommerce-600w-1030329901-removebg-preview.png" alt="" id="img1" >
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></a>
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -47,17 +49,17 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  <img src="icons8-login-24 (1).png" alt="">
+                  <a><img src="icons8-login-24 (1).png" alt="" class="image1"></a>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  <img src="icons8-sign-up-24 (1).png" alt="">
+                  <a href="signup.html"><img src="icons8-sign-up-24 (1).png" alt="" class="image1"></a>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link">
-                  <img src="icons8-cart-24.png" alt="">
+                  <a><img src="icons8-cart-24.png" alt="" class="image1">
                 </a>
               </li>
             </ul>
@@ -67,12 +69,13 @@
       </nav>
       <nav>
         <div class="nav nav-tabs nav-fill bg-secondary id="nav-tab role="tablist ">
-          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">All</button></a>
-          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Groceries</button>
-          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Electronics</button>
-          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Prime</button>
-          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Pay</button>
-          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">E-shop's choice</button>
+          <a href="#all"><button class="nav-link hlink"   type="button"  >All</button></a>
+
+          <a href="#groceries"><button class="nav-link" id="nav-profile-tab"  type="button" role="tab" >Groceries</button></a>
+          <a href="#electronics"><button class="nav-link" id="nav-contact-tab"  type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Electronics</button></a>
+          <a href="#prime"><button class="nav-link" id="nav-contact1-tab"  type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Prime</button></a>
+          <a href="#pay"><button class="nav-link" id="nav-contact2-tab"  type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Pay</button></a>
+          <a href="#e-shop"><button class="nav-link" id="nav-contact3-tab"  type="button" role="tab" aria-controls="nav-contact" aria-selected="false">E-shop's choice</button></a>
          </div>
       </nav>
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -96,56 +99,58 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <div class="All">
+      <div class="All" id="all">
       <h1>All</h1></div>
       <div class="row">
-        <div class="card" style="width: 18rem;">
+        <div class="card card1" style="width: 18rem;">
           <img src="istockphoto-1215516074-612x612.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Groceries</h5>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore pariatur nostrum hic deserunt provident fugiat. Asperiores aut a sed, itaque soluta consequuntur architecto nobis quas.</p>
-            <a href="#" class="btn btn-primary">Groceries</a>
+            <a href="#groceries" class="btn btn-primary">Groceries</a>
           </div>
         </div>
-        <div class="card" style="width: 18rem;">
+        <div class="card card1" style="width: 18rem;">
           <img src="istockphoto-521854819-170667a.jpg" class="card-img-top" alt="..." style="margin-top: 20px;">
           <div class="card-body">
             <h5 class="card-title">Electronics</h5>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem voluptatum iste ad, soluta expedita dicta quo in debitis officia delectus, voluptatibus ratione maiores repellendus tenetur.</p>
-            <a href="#" class="btn btn-primary">Electronics</a>
+            <a href="#electronics" class="btn btn-primary">Electronics</a>
           </div>
         </div>
-        <div class="card" style="width: 18rem;">
+        <div class="card card1" style="width: 18rem;">
           <img src="download1.jpg" class="card-img-top" alt="..." style="margin-top: 20px;">
           <div class="card-body">
             <h5 class="card-title">Prime</h5>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia odit vitae deleniti a optio. Corrupti dolore architecto nostrum odio neque! Cupiditate laudantium quae quos perferendis!</p>
-            <a href="#" class="btn btn-primary">Login To Prime</a>
+            <a href="#prime" class="btn btn-primary">Go To Prime</a>
           </div>
         </div>
-        <div class="card" style="width: 18rem;" style="margin-top: 20px;">
+        <div class="card card1" style="width: 18rem;" style="margin-top: 20px;">
           <img src="pass-equipment-turnstile-objects-supermarket-600w-395339209.png" class="card-img-top" alt="..." style="margin-top: 20px;" >
           <div class="card-body">
             <h5 class="card-title">Pay</h5>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos beatae nisi modi, mollitia natus consectetur est recusandae nostrum tenetur expedita magni! Placeat quaerat repudiandae qui!</p>
-            <a href="#" class="btn btn-primary">Go To Pay</a>
+            <a href="#pay" class="btn btn-primary">Go To Pay</a>
           </div>
         </div>
-        <div class="card" style="width: 18rem;">
+        <div class="card card1" style="width: 18rem;">
           <img src="istockphoto-521854819-170667a.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">E-shop's choice</h5>
             <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam commodi voluptate tempora laborum ullam, molestias eveniet nostrum ex! Iusto rem maiores quae, voluptate pariatur et.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#e-shop" class="btn btn-primary">E-shop's choice</a>
           </div>
         </div>
       </div>
-      <div class="Groceries">
+      <div class="Groceries" id="groceries">
         <h1>Groceries</h1>
       </div>
       <div class="row">
         <div class="card" style="width: 18rem;">
-          <img src="istockphoto-1215516074-612x612.jpg" class="card-img-top" alt="...">
+          <img src="istockphoto-1215516074-612x612.jpg" class="card-img-top"  alt="..." >
+         
+          
           <div class="card-body">
             <h5 class="card-title">Lorem, ipsum.</h5>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, maxime recusandae id corporis quae quaerat? Fuga esse accusamus optio maiores dolor non aliquid voluptatem maxime.</p>
@@ -185,7 +190,7 @@
           </div>
         </div>
       </div>
-      <div class="Groceries">
+      <div class="Groceries" id="electronics">
         <h1>Electronics</h1>
       </div>
       <div class="row">
@@ -230,7 +235,7 @@
           </div>
         </div>
       </div>
-      <div class="Groceries">
+      <div class="Groceries" id="prime">
         <h1>Prime</h1>
       </div>
       <div class="row">
@@ -275,7 +280,7 @@
           </div>
         </div>
       </div>
-      <div class="Groceries">
+      <div class="Groceries" id="pay">
         <h1>Pay</h1>
       </div>
       <div class="row">
@@ -320,7 +325,7 @@
           </div>
         </div>
       </div>
-      <div class="Groceries">
+      <div class="Groceries" id="e-shop">
         <h1>E-shop's choice</h1>
       </div>
       <div class="row">
@@ -368,7 +373,8 @@
       
       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
+    
+  </body>
 <footer class="text-center text-lg-start bg-light text-muted">
   <!-- Section: Social media -->
   <section
