@@ -12,6 +12,7 @@
     <form action="">
         <h1>Sign Up Here</h1>
         Enter Name:<input type="text" name="Name" id="name"><br>
+        <span id="error_name"></span>
         Enter Email Address:<input type="email" name="Email" id="email"  placeholder="xyz@gmail.com"><br>
         Enter Password(should include atleast 8 characters including atleast 1 digit 1 uppercase letter, 1 lowercase letter and a special character):<input type="password" name="Password" id="password"><br>
         Confirm Password:<input type="password" name="Password" id="password"><br>
@@ -20,7 +21,7 @@
         
         <input type="tel" name="Number" id="number"><br>
         <div class="g-recaptcha brochure__form__captcha" data-sitekey="6LfjWQogAAAAAGhNhxOKKSmHKt3YHo-iu7jjUsU6"></div>
-        <input type="submit" value="submit">
+        <input type="submit" value="submit" id="submit">
         </form> 
         <script src="signup.js"></script>
         <script src="https://www.google.com/recaptcha/api.js"></script>

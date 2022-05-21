@@ -1,7 +1,9 @@
-$recaptcha = $_POST['g-recaptcha-response'];
-$res = reCaptcha($recaptcha);
-if($res['success']){
-  // Send email
-}else{
-  alert("Please do reCaptcha verification")
-}
+var name=document.getElementById("name")
+var button=document.getElementById("submit")
+var error_name=document.getElementById('error_name')
+button.addEventListener('click', function(){
+    if(isNaN(name.value))
+    error_name.textContent="Please enter your name"
+    else
+    error_name.textContent=''
+})
