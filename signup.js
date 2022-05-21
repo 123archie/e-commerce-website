@@ -1,9 +1,10 @@
-var name=document.getElementById("name")
+var name_user=document.getElementById("name")
 var button=document.getElementById("submit")
-var error_name=document.getElementById('error_name')
-button.addEventListener('click', function(){
-    if(isNaN(name.value))
-    error_name.textContent="Please enter your name"
-    else
-    error_name.textContent=''
+var mailformat = /^w+([.-]?w+)*@w+([.-]?w+)*(.w{2,3})+$/;
+var email=document.getElementById("email")
+button.addEventListener('click', function performe(name_user,email,password){
+    //  if(email.value.match(mailformat))
+    //  alert("Valid Email")
+    //  document.
+    //  return true
 })
