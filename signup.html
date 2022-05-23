@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="">
+    <form name="myForm" action="" onsubmit="return validateform()" method="post">
         <h1>Sign Up Here</h1>
         Enter Name:<input type="text" name="Name" id="name" required="required"><br>
        
@@ -20,7 +20,7 @@
         <input type="text" id="countrycode" name="phone-field" class="country-code">
         
         <input type="tel" name="Number" id="number" required="required"><br>
-        <div class="g-recaptcha brochure__form__captcha" data-sitekey="6LfjWQogAAAAAGhNhxOKKSmHKt3YHo-iu7jjUsU6" required="required"></div>
+        <div class="g-recaptcha brochure__form__captcha" data-sitekey="6LfjWQogAAAAAGhNhxOKKSmHKt3YHo-iu7jjUsU6"></div>
         <input type="submit" value="submit" id="submit">
         </form> 
         <script src="signup.js"></script>
