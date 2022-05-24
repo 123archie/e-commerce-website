@@ -9,23 +9,24 @@
     <title>Document</title>
 </head>
 <body>
-    <form name="myForm" action="" onsubmit="return validateform()" method="post">
+    <form name="myForm">
         <h1>Sign Up Here</h1>
-        Enter Name:<input type="text" name="Name" id="name" required="required"><br>
+        Enter Name:<input type="text" name="Name" id="name"  required="required"><br>
        
-        Enter Email Address:<input type="email" name="Email" id="email"  placeholder="xyz@gmail.com" required="required"><br>
-        Enter Password(should include atleast 8 characters including atleast 1 digit 1 uppercase letter, 1 lowercase letter and a special character):<input type="password" name="Password" id="password" required="required"><br>
+        Enter Email Address:<input type="email" name="Email" id="email" value=""  placeholder="xyz@gmail.com" ><br>
+        Enter your Password(should include atleast one uppercase letter, one lowercase letter, one digit and a special character):<input type="password" name="Password" id="password" required="required"><br>
+        <input type="checkbox" name="Checkbox" id="checkbox">Show Password<br>
         Confirm Password:<input type="password" name="Password" id="passwordc" required="required"><br>
         Enter Phone Number:
         <input type="text" id="countrycode" name="phone-field" class="country-code">
         
         <input type="tel" name="Number" id="number" required="required"><br>
         <div class="g-recaptcha brochure__form__captcha" data-sitekey="6LfjWQogAAAAAGhNhxOKKSmHKt3YHo-iu7jjUsU6"></div>
-        <input type="submit" value="submit" id="submit">
-        </form> 
-        <script src="signup.js"></script>
-        <script src="https://www.google.com/recaptcha/api.js"></script>
-       
+        
+        <input type="submit" value="submit" id="submit" >
+    </form> 
+    <script src="https://www.google.com/recaptcha/api.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
+    <script src="./signup.js"></script>
 </body>
 </html>
