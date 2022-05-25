@@ -10,14 +10,15 @@ else{
 alert("Invalid email address");
 }
 
-let password=document.getElementById('password');
-let validation_password=password.value;
-let regex_pass=/^(?=.*[A-Z].*[A-Z])(?=.*[!@#$&*])(?=.*[0-9].*[0-9])(?=.*[a-z].*[a-z].*[a-z]).{8}$/;
-if(regex_pass.test(validation_password)){
-    alert("Valid password");
+let password=document.getElementById('password')
+let validationp=password.value;
+let regexp=/^(?=.*[A-Z].*[A-Z])(?=.*[!@#$&*])(?=.*[0-9].*[0-9])(?=.*[a-z].*[a-z].*[a-z]).{8}$/
+if(regexp.test(validationp)){
+    alert("Valid password")
 }else{
-    alert("Invalid password");
-}});
+    alert("Invalid password")
+}
+});
 
 let checkBOX=document.getElementById('checkbox')
 checkBOX.addEventListener('click', function(){
@@ -28,5 +29,11 @@ x.type="text"
 else{
 x.type='password'
 }
+});
+var input = document.querySelector("#phone");
+window.intlTelInput(input, {
+    separateDialCode: true,
+    preferredCountries: ["in"],
+    initialCountry:"in",
 });
 
