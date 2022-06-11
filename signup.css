@@ -1,9 +1,12 @@
 body{ 
-    display:flex;
-    background:rgb(252, 252, 211);
-    
-    
+  display:flex;
+  background:rgb(252, 252, 211);
+  
+  
 }
- .card{ 
-margin:auto; 
- }
+.card{ 
+margin:auto;} 
+
+
+
+     
