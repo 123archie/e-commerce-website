@@ -74,7 +74,8 @@ background-color: white;
 button.btn.btn-outline-success
 {
     background-color: green;
-}
+    
+    }
 .btn:hover{
     background-color: rgb(247, 190, 84);
     }
