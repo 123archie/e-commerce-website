@@ -27,3 +27,4 @@ set(ref(db, 'users/' + Math.random().toString(36).slice(2, 7))
 }
 });
 alert("Form submitted successfully");
+document.body.reset();
