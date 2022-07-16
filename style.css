@@ -1,12 +1,13 @@
 
 .navbar{
     display:flex;
-    justify-content: right !important;
+    justify
     }
 .nav{
     display:flex;
     justify-content: space-around;
 }
+
 #img1{
     width: 50px;
 }
